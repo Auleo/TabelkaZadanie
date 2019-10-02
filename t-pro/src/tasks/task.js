@@ -6,7 +6,7 @@ import React from 'react';
 // zakodować tabelke w normalnym html i wyświetlić ją w apce reacta
 
 const Table = ()=>{
-  return (<table border="5">
+  return (<tbody border="5">
   
 // podzielić tabelkę na thead i tbody
 // umieścić thead w komponencie TableHead
@@ -57,5 +57,5 @@ const TableBody = ()=>{
 </TR>
 
 }
-</table>)
+</tbody>)
 }
