@@ -8,8 +8,6 @@ import React from 'react';
 const Table = ()=>{
   return (<table border="5">
   
-</table>)
-}
 // podzielić tabelkę na thead i tbody
 // umieścić thead w komponencie TableHead
 // umieścić tbody w komponencie TableBody
@@ -17,9 +15,8 @@ const Table = ()=>{
 // wyrenderować komponent Table w apce reacta
 
 const TableBody = ()=>{
-  
-  <TR>
-  <TD colspan="7"> <center><h1>head row</h1></center></TD> 
+<TR>
+<TD colspan="7"> <center><h1>head row</h1></center></TD> 
   
 </TR>
 <TR> 
@@ -59,4 +56,6 @@ const TableBody = ()=>{
 <TD>10 @@@@@@@</TD><TD>0+0</TD> <TD>(- .-)</TD><TD>bz zz z</TD><TD>(" - ")</TD>
 </TR>
 
+}
+</table>)
 }
